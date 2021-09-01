@@ -1,0 +1,38 @@
+perintah awal git:
+git config --global user.name "nama"
+git config --global user.email "email"
+
+note: perintah awal diatas adalah untuk mengindentifikasi pengguna git
+
+perintah GIT:
+git init = untuk menjadikan folder biasa sebagai folder master
+git status = untuk mengetahui informasi dari folder
+git add =  untuk memindahkan fole ke staging area
+git rm --cached <file>... = digunakan untuk mengeluarkan file dari staging area
+git commit = untuk mngkommit folder
+git commit -m "pesan" = untuk membuat pesan
+git add . = untuk memindahkan semua file ke staging area
+git log = untuk melihat aktivitas git sebeluumnya
+git clean -f = digunakan untuk menghapus semua file didalam working directory
+git restore namaFile digunakan untuk membatalkan perubahan pada file di working directory
+git checkout <5 digit commit> = untuk mengembalikan file yang sudah terhapusd dan mengubah head
+git checkout <5 digit commit> -- <nama file> = untuk mengembalikan file yang sudah terhapus  tidak semuanya.
+git commit -am "pesan" = untuk mengkommit tetapi harus modified.
+git show 'hashFile' = digunakan untuk melihat riwayat perubahan secara detail
+git log --all --decorate --oneline --graph = untuk melihat log dalam bentuk grafik
+alias graph = "git log --all --decorate --oneline --graph" = digunakan untuk mempersingkat penulisan graph.
+git branch = untuk mengetahui head
+git branch <nama branch> = perintah tersebut digunakan untuk membuat branch baru
+git checkout <nama branch> = perintah tersebut digunakan untuk memindahkan head ke branch lainnya
+git branch -d <nama branch> =  untuk menghapus branch tidak terpakai lagi.
+git branch --merged = untuk mengetahui branch yang sudah di merge.
+git merge = untuk menggabungkan branch 
+git clone = untuk mengkloning repo dari github ke git local
+git remote = untuk mengetahui nama remote-nya (origin adalah nama default)
+git remote -v = untuk mengetahui nama remote-nya secara detail
+git push = untuk mengirimkan file yang sudah di commit dari local ke github supaya up to date dengan origin/main
+git fetch = untuk mengecek git local dengan remote github
+git pull = untuk mengambil data di github untuk merge
+git checkout -b <nama branch> = untuk membuat branch dan pindah ke branchnya
+
+  
